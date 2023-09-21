@@ -17,5 +17,4 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "Cauly.xcframework"
   s.platform = :ios
   s.ios.deployment_target = '12.0'
-  s.static_framework = true
 end
