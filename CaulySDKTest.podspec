@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CaulySDKTest'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Pod Test for iOS'
 
   s.description      = 'Pod Test for iOS project'
@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "Cauly.xcframework"
   s.platform = :ios
   s.ios.deployment_target = '12.0'
+  s.static_framework = true
 end
